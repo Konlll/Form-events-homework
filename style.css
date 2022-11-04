@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h2{
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.blue-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(170, 200, 255);
+    width: 400px;
+    padding: 0 15px;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.form-control{
+    margin: 15px 0;
+}
+
+button{
+    padding: 10px 0;
+    width: 220px;
+    background-color: #fff;
+    font-size: 24px;
+    margin: 10px 0;
+}

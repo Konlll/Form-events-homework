@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="blue-element">
+        <div class="form-control">
+            <label for="name">Megrendelő neve: </label><input type="text" id="name">
+        </div>
+        <div class="form-control">
+            <label for="address">Megrendelő címe: </label><input type="text" id="address">
+        </div>
+        <div class="form-control">
+            <label for="phone">Megrendelő telefonszáma: </label><input type="tel" id="phone" value="+36">
+        </div>
+        <div class="form-control">
+            <button type="submit" id="submit">Elküld</button>
+        </div>
+    </form>
+
+    <div class="blue-element">
+        <h2>Visszaigazolás!</h2>
+        <p>Név: <span id="output-name">?</span></p>
+        <p>Cím: <span id="output-address">?</span></p>
+        <p>Telefon: <span id="output-phone">?</span></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
